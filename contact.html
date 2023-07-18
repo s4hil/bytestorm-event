@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Home - Artify</title>
+
+    <style>
+        .form-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-container .form {
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar" id="sidebar">
+        <div class="nav-btn" id="navBtn"> Menu</div>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="navlink">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="shop.html" class="navlink">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="navlink">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="account.html" class="navlink">Account</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="navlink">About</a>
+            </li>
+        </ul>
+    </aside>
+    <div id="topBtn" onclick="toTop()">>></div>
+    <main class="wrapper" style="height: 100%;">
+        <nav class="navbar">
+            <h3>Artify</h3>
+        </nav>
+        <div class="box bestsellers" style="padding-top: 10vh; height: 110vh">
+            <h2 class="box-title">Contact <span>Us</span></h2>
+            <div class="form-container" >
+                <div class="form" style="margin: 10px auto;">
+                    <fieldset class="form-group">
+                        <label for="">Name</label>
+                        <input type="text" class="form-control">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="">Message</label>
+                        <textarea type="text" class="form-control"></textarea>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <button type="text" class="submit-btn">Submit</button>
+                    </fieldset>
+                </div>
+        </div>
+ 
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

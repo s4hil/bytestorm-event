@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Home - Artify</title>
+
+    <style>
+        .form-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-container .form {
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar" id="sidebar">
+        <div class="nav-btn" id="navBtn"> Menu</div>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="navlink">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="shop.html" class="navlink">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="navlink">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="account.html" class="navlink">Account</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="navlink">About</a>
+            </li>
+        </ul>
+    </aside>
+    <div id="topBtn" onclick="toTop()">>></div>
+    <main class="wrapper" style="height: 100%;">
+        <nav class="navbar">
+            <h3>Artify</h3>
+        </nav>
+        <style>
+            .col-7 {
+                width: 50%;
+                color: white;
+            }
+            .col-3 {
+                width: 20%;
+            }
+            .col-3 img {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+            }
+            .row {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        </style>
+        <div class="box bestsellers" style="padding-top: 10vh; height: 110vh">
+            <h2 class="box-title">Contact <span>Us</span></h2>
+            <div class="row">
+                <div class="col-7">
+                    <p>
+                        At artify we believe that the best customer experience is delivered when the person in charge deals with the craf5tsmen itself,The work of the craftseen is extra oprdinary and we try to deliver the best products hand picked by the people, the price is also very reasonable, we try to keep up with the upcomming trends and are starting to go online.
+                    </p>
+                </div>
+                <div class="col-3">
+                    <img src="./assets/imgs/aboutpic.jpg" alt="">
+                </div>
+            </div>
+        </div>
+ 
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
